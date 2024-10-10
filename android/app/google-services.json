@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "485911497764",
+    "project_id": "aiquizitive",
+    "storage_bucket": "aiquizitive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485911497764:android:05aa2f43972eb740b71cb1",
+        "android_client_info": {
+          "package_name": "com.aiquizitive.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5tRb2ZfO73ZZApYYGhJBYvuc6O9fHuE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
