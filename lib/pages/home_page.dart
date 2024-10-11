@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
               : Colors.grey[300],
           borderRadius: BorderRadius.circular(10),
         ),
-        child: Text(
+        child: SelectableText(  // Use SelectableText instead of Text
           message,
           style: TextStyle(
             color: isUserMessage ? Colors.white : Colors.black87,
@@ -109,9 +109,12 @@ class _HomePageState extends State<HomePage> {
                 String answer = entry['answer'] ?? '';
                 
                 return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start, // Align both question and answer to start
                   children: [
-                    _buildChatBubble(question, true), // Question on the right
-                    _buildChatBubble(answer, false), // Answer on the left
+                    // Question styled in blue and bold
+                    _buildChatBubble(question, true),
+                    // Answer styled in regular font
+                    _buildChatBubble(answer, false),
                   ],
                 );
               },
